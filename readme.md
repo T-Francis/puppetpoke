@@ -6,6 +6,7 @@ This repository is based on [docker-puppeteer](https://github.com/alekzonder/doc
 
 ```bash
 git clone https://github.com/T-Francis/puppetpoke.git \
+&& cd puppetpoke \
 && echo HOST_UID=$UID > .env \
 && docker-compose up
 ```
